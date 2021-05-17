@@ -1,0 +1,72 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Gutentag
+ * @version 	1.0.0
+ * 
+ * Visual Portfolio Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /* Large Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Medium Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Tablet Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 600
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Phone Monitor
+/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 1024px) {
+  .cmsmasters_footer_default .footer_copyright {
+    padding: 40px 0 0;
+  }
+  [data-vp-layout=slider] .vp-portfolio__items-arrow {
+    display: none;
+  }
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items-style-emerge .vp-portfolio__item-align-center {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items-style-emerge .vp-portfolio__item-align-center {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .vp-portfolio__item-meta-read-more {
+    margin-top: 15px;
+  }
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items-style-emerge .vp-portfolio__item-align-center {
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .cmsmasters_portfolio_categories_data_wrap .vp-portfolio__item-meta-categories {
+    display: block;
+  }
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .cmsmasters_portfolio_categories_data_wrap .vp-portfolio__item-meta-date {
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-prev {
+    margin-right: 20px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-next {
+    margin-left: 20px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination.vp-pagination__style-default .vp-pagination__item {
+    min-width: 15px;
+  }
+}

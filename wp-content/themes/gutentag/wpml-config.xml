@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Gutentag
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_gutentag_header">
+            <key name="gutentag_header_top_line_short_info" />
+            <key name="gutentag_header_top_line_donations_but_text" />
+            <key name="gutentag_header_donations_but_text" />
+            <key name="gutentag_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_gutentag_footer">
+            <key name="gutentag_footer_html" />
+            <key name="gutentag_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_gutentag_single_project">
+            <key name="gutentag_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_gutentag_single_profile">
+            <key name="gutentag_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

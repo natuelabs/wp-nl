@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JMAX\n"
+"POT-Creation-Date: 2014-06-17 22:31-0000\n"
+"PO-Revision-Date: 2014-06-17 22:32-0000\n"
+"Last-Translator: Merrasse Mouhcine <merrasse.mouhcine@gmail.com>\n"
+"Language-Team: Merrasse Mouhcine <merrasse.mouhcine@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: E:\\SERVEUR\\htdocs\\jmax\\wp-content\\themes\\jmax"
+"\\languages\\lan\n"
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:20
+msgid "Return home"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:22
+msgid "Or find something else"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:25
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:33
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/page-sitemap.php:36
+msgid "Pages"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:37
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/page-sitemap.php:40
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-meta-info.php:47
+msgid "Categories"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:41
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/page-sitemap.php:44
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-meta-info.php:52
+msgid "Tags"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/404.php:55
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/page-sitemap.php:58
+msgid "Authors"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/author.php:14
+msgid "Author - "
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/carousel.php:78
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/category-slider.php:56
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-1.php:36
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-1.php:58
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-2.php:35
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-2.php:57
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-3.php:68
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-4.php:83
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-5.php:46
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-5.php:73
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-block-styles/block-style-6.php:44
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-related-posts/related-posts.php:51
+msgid "MORE +"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:40
+msgid "No comments yet. You should be kind and add one!"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:50
+msgid "You must be"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:50
+msgid "logged in"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:50
+msgid "to post a comment."
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:57
+msgid "Logged in as "
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:57
+msgid "Log out &raquo;"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:69
+msgid "Name"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:69
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:71
+msgid "(required)"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:71
+msgid "Mail"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:73
+msgid "Website"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:79
+msgid "Your Comment"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:83
+msgid "You can use these tags:"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/comments.php:85
+msgid "Submit Comment"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/sidebar.php:17
+msgid "Archives"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/sidebar.php:24
+msgid "Meta"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/tag.php:14
+msgid "Tag - "
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/ticker.php:51
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/four-columns.php:32
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/image-plus-info-below.php:32
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/image-plus-info.php:33
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/three-columns.php:33
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/two-columns.php:33
+msgid "Sorry, nothing to display."
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/four-columns.php:20
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/image-plus-info-below.php:21
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/image-plus-info.php:22
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/three-columns.php:21
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-blog-styles/two-columns.php:21
+msgid "MORE..."
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-author-box.php:5
+msgid "About"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-author-box.php:6
+msgid "More posts by"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-author-box.php:6
+msgid "MORE+"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-comments.php:27
+msgid "This comment is by the post author!"
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-comments.php:33
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-meta-info.php:6
+#: E:\SERVEUR\htdocs\jmax\wp-content\themes\jmax\languages\lan/jmax-helpers/jmax-meta-info.php:18
+msgid "By"
+msgstr ""

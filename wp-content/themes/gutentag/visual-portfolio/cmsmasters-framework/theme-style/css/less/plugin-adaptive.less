@@ -1,0 +1,147 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Gutentag
+ * @version 	1.0.0
+ * 
+ * Visual Portfolio Responsive CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+
+@import "../../../../../theme-framework/theme-style/css/less/general.less";
+
+
+@media only screen {
+/*-------------------------------------------------------------------------*/
+/* Large Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_large {
+
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Medium Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_medium {
+
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet {
+	.cmsmasters_footer_default {
+        .footer_copyright {
+            padding: 40px 0 0;
+        }
+    }
+
+	[data-vp-layout=slider] {
+		.vp-portfolio__items-arrow {
+			.dn;
+		}
+    }
+    
+    .vp-portfolio[data-vp-layout=tiles] {
+        .vp-portfolio__items-style-emerge {
+            .vp-portfolio__item-align-center {
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet_small {
+    .vp-portfolio[data-vp-layout=tiles] {
+        .vp-portfolio__items-style-emerge {
+            .vp-portfolio__item-align-center {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	Tablet Monitor 600
+/*-------------------------------------------------------------------------*/
+@media @monitor_tablet_600 {
+	.vp-portfolio[data-vp-layout=tiles] {
+        .vp-portfolio__items.vp-portfolio__items-style-default {
+            .vp-portfolio__item-overlay {
+                .vp-portfolio__item-meta-read-more {
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        .vp-portfolio__items-style-emerge {
+            .vp-portfolio__item-align-center {
+                padding: 5px;
+            }
+        }
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+/* Phone Monitor
+/*-------------------------------------------------------------------------*/
+@media @monitor_phone {
+	.vp-portfolio__items {
+        &.vp-portfolio__items-style-default {
+            .vp-portfolio__item-overlay {
+                .cmsmasters_portfolio_categories_data_wrap {
+                    .vp-portfolio__item-meta-categories {
+                        .vp-portfolio[data-vp-layout=tiles] & {
+                            display: block;
+                        }
+                    }
+
+                    .vp-portfolio__item-meta-date {
+                        .vp-portfolio[data-vp-layout=tiles] & {
+                            display: block;
+                            margin-left: 0;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .vp-portfolio__pagination-wrap {
+        .vp-pagination {
+            .vp-pagination__item {
+                &.vp-pagination__item-prev {
+                    margin-right: 20px;
+                }
+
+                &.vp-pagination__item-next {
+                    margin-left: 20px;
+                }
+            }
+
+            &.vp-pagination__style-default {
+                .vp-pagination__item {
+                    min-width: 15px;
+                }
+            }
+        }
+    }
+}
+} 
+

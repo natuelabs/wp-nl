@@ -1,0 +1,249 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Gutentag
+ * @version 	1.0.0
+ * 
+ * Visual Portfolio RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+/*-------------------------------------------------------------------------*/
+/* Global Styles
+/*-------------------------------------------------------------------------*/
+.vp-portfolio__items .vp-portfolio__item-img-wrap .vp-portfolio__item-img .cmsmasters_vp_portfolio_noimage:before{
+    right: 0;
+    left: 0;
+}
+
+.vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta{
+    text-align: right;
+}
+
+.vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt, .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta{
+    text-align: left;
+}
+
+.vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .cmsmasters_portfolio_categories_data_wrap .vp-portfolio__item-meta-date{
+    margin-right: 30px;
+}
+
+.vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .cmsmasters_sticky_block{
+    margin-right: 20px;
+}
+
+.vp-portfolio[data-vp-layout=tiles][data-vp-items-style=default]{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.vp-portfolio[data-vp-layout=tiles][data-vp-items-style=default][data-vp-tiles-type='1|1,0.5|'] .vp-portfolio__item-wrap{
+    left: 0;
+}
+
+[data-vp-layout="masonry"] .vp-portfolio__item-img{
+    left: 0;
+    right: 0;
+}
+
+[data-vp-layout="masonry"] .vp-portfolio__item-img img, [data-vp-layout="tiles"] .vp-portfolio__item-img{
+    left: 0;
+    right: 0;
+}
+
+.vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-next{
+    margin-right: 30px;
+}
+
+.vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-prev{
+    margin-left: 30px;
+}
+
+.vp-portfolio__filter-wrap .vp-filter.vp-filter__align-left{
+    text-align: right;
+}
+
+.vp-portfolio__filter-wrap .vp-filter.vp-filter__align-right{
+    text-align: left;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span{
+    margin-left: 30px;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span:last-child{
+    margin-left: 0;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span.cmsmasters_portfolio_category a, .cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span.cmsmasters_portfolio_category span{
+    margin-right: 4px;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span.cmsmasters_portfolio_category a:first-child, .cmsmasters_open_portfolio .cmsmasters_portfolio_cont_info > span.cmsmasters_portfolio_category span:first-child{
+    margin-right: 0;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_footer > span{
+    margin-right: 4px;
+}
+
+.cmsmasters_open_portfolio .cmsmasters_portfolio_footer > span:first-child{
+    margin-right: 0;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-img-wrap .vp-portfolio__item-img .cmsmasters_vp_portfolio_noimage:before{
+    right: 0;
+    left: 0;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-left .vp-portfolio__item-meta{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay.vp-portfolio__item-align-right .vp-portfolio__item-meta{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-overlay{
+    left: 0;
+    right: 0;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left .vp-portfolio__item-meta, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right .vp-portfolio__item-meta, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly.swiper-wrapper .vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt{
+    text-align: left;
+}
+
+[data-vp-layout=justified] .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-img-wrap .vp-portfolio__item-img .cmsmasters_vp_portfolio_noimage:before{
+    right: 0;
+    left: 0;
+}
+
+.vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-overlay{
+    left: 0;
+    right: 0;
+}
+
+.vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left .vp-portfolio__item-meta, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right .vp-portfolio__item-meta, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fly:not(.swiper-wrapper) .vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-fade .vp-portfolio__item-overlay{
+    left: 0;
+    right: 0;
+}
+
+.vp-portfolio__items-style-fade .vp-portfolio__item-align-left{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fade .vp-portfolio__item-align-left .vp-portfolio__item-meta, .vp-portfolio__items-style-fade .vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fade .vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fade .vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fade .vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-fade .vp-portfolio__item-align-right{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-fade .vp-portfolio__item-align-right .vp-portfolio__item-meta, .vp-portfolio__items-style-fade .vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-fade .vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items-style-fade .vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items-style-fade .vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-overlay{
+    right: 0;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-overlay:before{
+    left: 0;
+    right: -20px;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-meta-categories{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-align-left{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-align-left .vp-portfolio__item-meta, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-left .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-left .vp-portfolio__item-meta-title, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-left .vp-portfolio__item-meta-date, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-left .vp-portfolio__item-meta-excerpt{
+    text-align: right;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-align-right{
+    text-align: left;
+}
+
+.vp-portfolio__items-style-emerge .vp-portfolio__item-align-right .vp-portfolio__item-meta, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-right .vp-portfolio__item-meta-categories, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-right .vp-portfolio__item-meta-title, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-right .vp-portfolio__item-meta-date, .vp-portfolio__items-style-emerge .vp-portfolio__item-align-right .vp-portfolio__item-meta-excerpt{
+    text-align: left;
+}
+
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /* Large Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Medium Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Tablet Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Small Tablet Monitor
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 600
+/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Phone Monitor
+/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 1024px) {
+  .cmsmasters_footer_default .footer_copyright {
+    padding: 40px 0 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .cmsmasters_portfolio_categories_data_wrap .vp-portfolio__item-meta-categories {
+    display: block;
+  }
+  .vp-portfolio[data-vp-layout=tiles] .vp-portfolio__items.vp-portfolio__items-style-default .vp-portfolio__item-overlay .cmsmasters_portfolio_categories_data_wrap .vp-portfolio__item-meta-date {
+    display: block;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-prev {
+    margin-left: 20px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination .vp-pagination__item.vp-pagination__item-next {
+    margin-right: 20px;
+  }
+  .vp-portfolio__pagination-wrap .vp-pagination.vp-pagination__style-default .vp-pagination__item {
+    min-width: 15px;
+  }
+}
+

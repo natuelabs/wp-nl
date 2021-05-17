@@ -1,0 +1,86 @@
+@import "../../../../../theme-framework/theme-style/css/less/general.less";
+
+@import "module-style.less";
+
+
+.gutenberg_styles();
+
+
+.gutenberg_styles();
+
+/* Start Align Wide & Full Support */
+@scrollbar_width:17px;
+
+.content_wrap {
+	&.fullwidth {
+		.alignwide,
+		.alignfull {
+			width:auto;
+			max-width:none;
+		}
+		
+		.alignfull {
+			margin-left:-@blocks_hor_pad;
+			margin-right:-@blocks_hor_pad;
+
+			&.wp-block-table {
+				width: calc(~"100vw - 17px");
+			}
+		}
+
+		.alignwide {
+			&.wp-block-table {
+				width: 80vw;
+			}
+		}
+		
+		@media @monitor_large, @monitor_medium {
+			.generate_align_wide_full_each();
+		}
+		
+		@media @monitor_tablet {
+			.generate_align_full_each();
+			.generate_align_wide_each(-@blocks_hor_pad * 2);
+		}
+	}
+}
+
+.generate_align_wide_full_each (@additi_width:0px) {
+	.generate_align_wide_each(@additi_width);
+	.generate_align_full_each(@additi_width);
+}
+
+.generate_align_wide_each (@additi_width) {
+	.generate_align_wide(0px, @additi_width);
+	
+	@media (pointer:coarse) {
+		.generate_align_wide(0px, @additi_width);
+	}
+}
+
+.generate_align_full_each (@additi_width:0px) {
+	.generate_align_full(@scrollbar_width, @additi_width);
+	
+	@media (pointer:coarse) {
+		.generate_align_full(0px, @additi_width);
+	}
+}
+
+.generate_align_wide (@scrollbar_width_attr:0px, @additi_width:0px) {
+	@alignwide_mar:~"-1 * ((100vw - 100% - @{scrollbar_width_attr} + @{additi_width}) / 4)";
+	
+	.alignwide {
+		margin-left:calc(@alignwide_mar);
+		margin-right:calc(@alignwide_mar);
+	}
+}
+
+.generate_align_full (@scrollbar_width_attr:0px, @additi_width:0px) {
+	@alignfull_mar:~"-1 * ((100vw - 100% - @{scrollbar_width_attr} + @{additi_width}) / 2)";
+	
+	.alignfull {
+		margin-left:calc(@alignfull_mar);
+		margin-right:calc(@alignfull_mar);
+	}
+}
+/* Finish Align Wide & Full Support */
